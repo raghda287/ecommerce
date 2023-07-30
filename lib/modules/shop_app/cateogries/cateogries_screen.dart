@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/models/categories_model.dart';
-import 'package:shop_app/modules/shop_app/shop_cubit.dart';
+
+import '../../../models/categories_model.dart';
+import '../shop_cubit.dart';
+
 
 class Categories_Screen extends StatelessWidget {
   const Categories_Screen({Key? key}) : super(key: key);

@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/modules/shop_app/shop_cubit.dart';
-import 'package:shop_app/modules/shop_app/shop_layout/shop.dart';
-import 'package:shop_app/shared/network/local/cache_helper.dart';
-import 'package:shop_app/shared/network/remote/dio_helper.dart';
+import 'package:serb/modules/shop_app/shop_login/shop_login_screen.dart';
+import 'package:serb/shared/network/local/cache_helper.dart';
+import 'package:serb/shared/network/remote/dio_helper.dart';
+
+import 'modules/shop_app/on_boarding/on_boarding_screen.dart';
+import 'modules/shop_app/shop_cubit.dart';
+import 'modules/shop_app/shop_layout/shop.dart';
+
 void main() {
   runApp(MyApp());
   DioHelper.init();
@@ -22,7 +26,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
 
-        home: (Shop_Layout()),
+        home: (OnBoardingScreen()),
         theme: ThemeData(
           primaryColor: Colors.blue,
           bottomNavigationBarTheme: BottomNavigationBarThemeData(

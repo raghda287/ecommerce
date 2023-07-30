@@ -14,3 +14,6 @@ class ShopLoadingCategoriesState extends ShopState {}
 class ShopSuccessCategoriesState extends ShopState {}
 class ShopErrorCategoriesState extends ShopState {}
 
+class ShopSuccessAddFavouriteState extends ShopState {}
+class ShopErrorCAddFavouriteState extends ShopState {}
+

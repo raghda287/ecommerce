@@ -1,9 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:shop_app/modules/shop_app/shop_login/shop_login_screen.dart';
-import 'package:shop_app/shared/components/component.dart';
-import 'package:shop_app/shared/styles/colors.dart';
+
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+
+import '../../../shared/components/component.dart';
+import '../../../shared/styles/colors.dart';
+import '../shop_login/shop_login_screen.dart';
 
 class BoardingModel {
   final String image;
